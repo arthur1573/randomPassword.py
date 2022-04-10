@@ -1,5 +1,5 @@
 import random
-import string
+#import string
 import clipboard
 
 
