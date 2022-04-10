@@ -4,7 +4,7 @@ import clipboard
 
 
 
-print('Hello, Welcome...')
+#print('Hello, Welcome...')
 
 # length = int(input('\nEnter the length of password: (Suggestion number: 16)'))
 length = 16
