@@ -34,7 +34,7 @@ all = letter + number + symbols2
 
 
 # delete: i l o, I L O, 1 0
-all2 = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789"
+all2 = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" # delete: i l o, I L O, 1 0, !()-=+
 #print("All letter which I select: " + all2)
 
 
