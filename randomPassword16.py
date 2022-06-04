@@ -11,8 +11,14 @@ password = random.choices(all, k=16)
 password2 = "".join(password)
 
 
-# if the module is not install
-# = if the user not run: pip install -r requirements.txt
+# setup dependencies
+# pip install -r requirements.txt
+
+
+
+# if the module is not install or 
+# Pyperclip could not find a copy/paste mechanism for your system
+# this program needs continual running
 try:
     import pyperclip
     pyperclip.copy(password2)
