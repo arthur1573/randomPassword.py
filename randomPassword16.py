@@ -1,14 +1,18 @@
 import random
 
 
-# combine all letter, number, signes.
-all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" # delete: i l o, I L O, 1 0, !()-=+[]\;',./
+# combine all letter, number, signes 
+# delete something I do not like: i l o, I L O, 1 0, ! ( ) - = + [ ] \ ; ' , . /
+all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" 
 password = random.choices(all, k=16)
+
 
 # convert list to string
 password2 = "".join(password)
 
 
+# if the module is not install
+# = if the user not run: pip install -r requirements.txt
 try:
     import pyperclip
     pyperclip.copy(password2)
