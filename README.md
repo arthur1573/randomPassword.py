@@ -1,6 +1,6 @@
 # Python generate a random password
 
-## How to use (Windows 10+)
+## How to use (Windows)
 - install Python 3.10
 - download this repository
 - open your dictionary, type "cmd" to replace with the file path
