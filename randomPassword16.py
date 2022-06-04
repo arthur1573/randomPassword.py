@@ -12,7 +12,8 @@ password2 = "".join(password)
 try:
     import pyperclip
     pyperclip.copy(password2)
-    print('The text to be copied to the clipboard.')
+    print(password2)
+    print('Well done, the password has been copied to the clipboard.')
 except:
     print(password2)
-    
+    print('Well done, you need to copy the password above manually.')
