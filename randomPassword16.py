@@ -5,5 +5,6 @@ all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%
 password = random.choices(all, k=16)
 password2 = "".join(password)
 pyperclip.copy(password2)
+
 print(password2)
 print('The text to be copied to the clipboard.')
