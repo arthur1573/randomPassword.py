@@ -1,8 +1,15 @@
-# Python generate a random password
+generate a random password
 
-## How to use (Windows)
-- install Python3
-- download this repository
-- open your dictionary, type "cmd" to replace with the file path
-- click "Tab" button in your keyboard, run randomPassword16.py file
-- done
+## Installation & Usage 
+
+```
+git clone https://github.com/arthur1573/random-password-16.git
+
+cd random-password-16
+
+pip install -r requirements.txt
+
+rp.py
+
+```
+
