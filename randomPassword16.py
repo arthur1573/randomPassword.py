@@ -4,11 +4,16 @@ import random
 # combine all letter, number, signes 
 # delete something I do not like: i l o, I L O, 1 0, ! ( ) - = + [ ] \ ; ' , . /
 all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" 
-password = random.choices(all, k=16)
+password_list = random.choices(all, k=16)
+
+# delete something I do not like: i l o
+username = "abcdefghjkmnpkrstuvwxyz"
+username_list = random.choices(username, k=4)
 
 
 # convert list to string
-password2 = "".join(password)
+password_str = "".join(password_list)
+username_str = "".join(username_list)
 
 
 # setup dependencies
@@ -21,9 +26,14 @@ password2 = "".join(password)
 # this program needs continual running
 try:
     import pyperclip
-    pyperclip.copy(password2)
-    print(password2)
+    pyperclip.copy(password_str)
+    print(username_str)
+    print(password_str)
     print('Well done, the password has been copied to the clipboard.')
 except:
-    print(password2)
+    print(username_str)
+    print(password_str)
     print('Well done, you need to copy the password above manually.')
+
+
+
