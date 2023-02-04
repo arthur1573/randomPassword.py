@@ -6,6 +6,7 @@ import random
 all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" 
 password_list = random.choices(all, k=16)
 
+
 # delete something I do not like: i l o
 username = "abcdefghjkmnpkrstuvwxyz"
 username_list = random.choices(username, k=4)
