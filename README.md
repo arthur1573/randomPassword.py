@@ -1,6 +1,7 @@
-generate a random password
 
-## Installation & Usage 
+
+## linux system
+## installation & usage 
 
 ```
 git clone https://github.com/arthur1573/random-password-16.git
