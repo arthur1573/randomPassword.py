@@ -1,6 +1,5 @@
 import random
 
-
 # combine all letter, number, signes 
 # delete something I do not like: i l o, I L O, 1 0, ! ( ) - = + [ ] \ ; ' , . /
 all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" 
@@ -10,11 +9,9 @@ password_list = random.choices(all, k=16)
 username = "abcdefghjkmnpkrstuvwxyz"
 username_list = random.choices(username, k=4)
 
-
 # convert list to string
 password_str = "".join(password_list)
 username_str = "".join(username_list)
-
 
 # setup dependencies
 # pip install -r requirements.txt
