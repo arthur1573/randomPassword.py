@@ -1,7 +1,7 @@
 
 
-## linux system
-## installation & usage 
+# linux system
+### installation & usage 
 
 ```
 git clone https://github.com/arthur1573/random-password-16.git
@@ -9,7 +9,7 @@ git clone https://github.com/arthur1573/random-password-16.git
 cd random-password-16
 
 # windows user could use clipboard:
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 python3 rp.py
 
