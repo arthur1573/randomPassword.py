@@ -3,7 +3,7 @@
 # installation & usage 
 
 
-### for linux system:
+#### for linux system:
 
 ```
 
@@ -17,7 +17,7 @@ python3 rp.py
 
 
 
-### for windows system
+#### for windows system
 
 1. install python, git, pip
 
