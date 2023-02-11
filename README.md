@@ -19,9 +19,9 @@ python3 rp.py
 
 #### for windows system
 
-1. install python, git, pip
+1. install python, git, pip.
 
-or download this repositories
+	or download this repositories
 
 2. run cmd.exe(in the folder path -->F4+cmd), type in "rp.py"
 
