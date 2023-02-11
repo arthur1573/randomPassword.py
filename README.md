@@ -6,11 +6,7 @@
 #### for linux system:
 
 ```
-git clone https://github.com/arthur1573/random-username-password-generator.git
-
-cd random-password-16
-
-python3 rp.py
+git clone https://github.com/arthur1573/random-username-password-generator.git && cd random-username-password-generator && python3 rp.py
 ```
 
 
