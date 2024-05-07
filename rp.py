@@ -1,9 +1,13 @@
 
 import random
 
+
 # combine all letter, number, signes 
 # delete something I do not like: i l o, I L O, 1 0, ! ( ) - = + [ ] \ ; ' , . /
 all = "abcdefghjkmnpkrstuvwxyz" + "ABCDEFGHJKMNPKRSTUVWXYZ" + "23456789" + "@#$%^*_" 
+
+
+# 16 length
 password_list = random.choices(all, k=16)
 
 
