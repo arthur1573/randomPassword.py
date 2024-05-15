@@ -30,12 +30,14 @@ username_str = "".join(username_list)
 try:
     import pyperclip
     pyperclip.copy(password_str)
-    print("user name: ", username_str)
+    print("username: ", username_str)
     print("password: ", password_str)
+    print()
     print('Well done, the password has been copied to the clipboard.')
 except:
-    print("user name: ", username_str)
+    print("username: ", username_str)
     print("password: ", password_str)
+    print()
     print('Well done, you need to copy the password above manually.')
 
 
